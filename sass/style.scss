@@ -84,7 +84,7 @@ body {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  
+
   .active {
     font-weight: bold;
   }
@@ -125,3 +125,32 @@ body {
     margin: 0 10px 0 0;
   }
 }
+
+/* Tags */
+
+.tag-size-1 {
+  font-size: 80%;
+}
+.tag-size-2 {
+  font-size: 100%;
+}
+.tag-size-3 {
+  font-size: 120%;
+}
+.tag-size-4 {
+  font-size: 150%;
+}
+.tag-size-5 {
+  font-size: 180%;
+}
+
+.tags.list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+}
+
